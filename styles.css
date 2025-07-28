@@ -30,3 +30,57 @@ p {
     font-size: 1.2rem;
     line-height: 1.6;
 }
+
+.contact-section {
+    margin-top: 2rem;
+    padding-top: 2rem;
+    border-top: 2px solid #eee;
+}
+
+.contact-section h2 {
+    color: #333;
+    font-size: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.social-links {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.social-link {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.75rem 1.5rem;
+    background: linear-gradient(135deg, #667eea, #764ba2);
+    color: white;
+    text-decoration: none;
+    border-radius: 25px;
+    font-weight: 500;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.social-link:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.2);
+}
+
+.social-link.github {
+    background: linear-gradient(135deg, #333, #555);
+}
+
+.social-link.email {
+    background: linear-gradient(135deg, #ea4335, #fbbc05);
+}
+
+.social-link.linkedin {
+    background: linear-gradient(135deg, #0077b5, #00a0dc);
+}
+
+.icon {
+    font-size: 1.2rem;
+}
